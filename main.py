@@ -4,8 +4,8 @@ import datetime as dt
 import random
 import smtplib
 
-my_email = os.environ.get("my_email")
-password = os.environ.get("password")
+my_email = os.environ.get("MY_EMAIL")
+password = os.environ.get("PASSWORD")
 
 now = dt.datetime.now()
 today_month = now.month
